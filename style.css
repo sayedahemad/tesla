@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#MainMenu {
+  height: 60px;
+  width: 95%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 2vh;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+#MainMenu ul {
+  display: flex;
+  list-style: none;
+}
+#MainMenu ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+#MainMenu ul li a:hover {
+  background-color: #becad6;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#Logo {
+  display: flex;
+}
+
+#Logo img {
+  height: 15px;
+  width: 130px;
+}
+.MainSection {
+  background-image: url("src/model3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.Car {
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Car h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+.Button {
+  padding-top: 60vh;
+  text-align: center;
+  /* a{
+        text-decoration:none;
+    } */
+}
+
+.Button a {
+  display: inline-block;
+  background-color: gray;
+  padding: 12px 50px;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+/* .Button a .right-btn {
+  display: inline-block;
+  background-color: black;
+  padding: 12px 50px;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+} */
+.MainSection .Car p a {
+  text-decoration: none;
+  color: black;
+}
